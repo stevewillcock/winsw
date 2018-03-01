@@ -275,7 +275,7 @@ Specifying a priority higher than normal has unintended consequences.
 See the MSDN article [ProcessPriorityClass Enumeration](http://msdn.microsoft.com/en-us/library/system.diagnostics.processpriorityclass%28v=vs.110%29.aspx) for details.
 This feature is intended primarily to launch a process in a lower priority so as not to interfere with the computer's interactive usage.
 
-###stopparentprocessfirst
+### stopparentprocessfirst
 Optionally specify the order of service shutdown. 
 If `true`, the parent process is shutdown first. 
 This is useful when the main process is a console, which can respond to Ctrl+C command and will gracefully shutdown child processes.
